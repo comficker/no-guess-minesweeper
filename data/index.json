@@ -1,0 +1,51 @@
+{
+  "name": "no-guess-minesweeper puzzle set",
+  "description": "Minesweeper boards that can be cleared from the given start cell by logic alone, no guessing.",
+  "license": "CC-BY-4.0",
+  "credit": "No-guess Minesweeper puzzles by Minesweeper Battle (https://minesweeperbattle.com), CC BY 4.0",
+  "minesweeperbattle": "https://minesweeperbattle.com",
+  "files": [
+    {
+      "level": "beginner",
+      "path": "data/beginner.json",
+      "width": 9,
+      "height": 9,
+      "mines": 10,
+      "count": 100,
+      "difficulty": {
+        "easy": 73,
+        "medium": 25,
+        "hard": 2
+      },
+      "minesweeperbattle": "https://minesweeperbattle.com/minesweeper/beginner"
+    },
+    {
+      "level": "intermediate",
+      "path": "data/intermediate.json",
+      "width": 16,
+      "height": 16,
+      "mines": 40,
+      "count": 100,
+      "difficulty": {
+        "easy": 47,
+        "hard": 9,
+        "medium": 44
+      },
+      "minesweeperbattle": "https://minesweeperbattle.com/minesweeper/intermediate"
+    },
+    {
+      "level": "expert",
+      "path": "data/expert.json",
+      "width": 30,
+      "height": 16,
+      "mines": 99,
+      "count": 100,
+      "difficulty": {
+        "easy": 3,
+        "medium": 28,
+        "hard": 69
+      },
+      "minesweeperbattle": "https://minesweeperbattle.com/minesweeper/expert"
+    }
+  ]
+}

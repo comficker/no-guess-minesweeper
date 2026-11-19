@@ -1,0 +1,58 @@
+{
+  "name": "no-guess-minesweeper",
+  "version": "0.1.0",
+  "description": "Generate Minesweeper boards you can solve without guessing, check any board with a logic solver, and use 300 ready-made no-guess puzzles (beginner, intermediate, expert).",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./src/index.js"
+    },
+    "./data/*.json": "./data/*.json",
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "no-guess-minesweeper": "bin/cli.js"
+  },
+  "files": [
+    "src",
+    "bin",
+    "data",
+    "index.d.ts",
+    "i18n",
+    "ALGORITHM.md",
+    "LICENSE",
+    "LICENSE-DATA"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "build:data": "node scripts/build-data.js"
+  },
+  "keywords": [
+    "minesweeper",
+    "no-guess",
+    "no guess minesweeper",
+    "minesweeper solver",
+    "minesweeper generator",
+    "puzzle",
+    "logic puzzle",
+    "seeded",
+    "game"
+  ],
+  "homepage": "https://minesweeperbattle.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comficker/no-guess-minesweeper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/comficker/no-guess-minesweeper/issues"
+  },
+  "author": "Minesweeper Battle (https://minesweeperbattle.com)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
